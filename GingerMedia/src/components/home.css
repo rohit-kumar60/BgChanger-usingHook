@@ -1,0 +1,33 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+}
+
+.homepage-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.homepage-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.homepage-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #3d4859;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+
+.homepage-button:hover {
+    opacity: 0.9;
+}
